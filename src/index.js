@@ -13,7 +13,7 @@ function addToDo(theList) {
   let butn = document.createElement('button')
   let task = document.createElement('tasks')
 
-  newList.innerHTML = `${list}`
+  newList.innerHTML = `${theList}`
   butn.innerHTML = 'deleteToDo'
   butn.addEventListener("click", deleteToDo)
   newList.appendChild(butn)
